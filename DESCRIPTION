@@ -1,0 +1,14 @@
+Package: statisticalscoringmodel
+Title: NBA Player Scoring Analysis (Non-Package Project Metadata)
+Version: 0.0.1
+Authors@R: person("Enrico", "Ong", role = c("aut", "cre"))
+Description: Metadata file so tools (e.g. renv, devtools) can discover R package dependencies for the R Markdown analysis. Not an installable R package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    tidyverse,
+    caret,
+    glmnet,
+    car,
+    corrplot,
+    rmarkdown
